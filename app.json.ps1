@@ -20,7 +20,7 @@ Describe 'app.json File Tests' {
     }
 
     Context 'Publisher Information' {
-        It 'should have "Winspire Solutions" as the publisher' {
+        It 'should have "Winspire Solutions Pte. Ltd." as the publisher' {
             $appJsonContent.publisher | Should -Be 'Winspire Solutions Pte. Ltd.'
         }
     }
