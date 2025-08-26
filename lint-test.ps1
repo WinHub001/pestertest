@@ -22,7 +22,7 @@ foreach ($line in $lines) {
         $allowed = @("All", "Basic", "Suite", "Advanced", "RelationshipMgmt", "SalesTax", "VAT", "BasicEU", "BasicNO", 
             "Dimensions", "SalesAnalysis", "InventoryAnalysis", "PurchaseAnalysis", "Location",
             "Assembly", "Manufacturing", "Planning", "Service", "ItemReferences",
-            "RecordLinks", "Notes")
+            "RecordLinks", "Notes", "ItemTracking")
         if ($allowed -cnotcontains $appArea) {
             $issues += @{
                 Line = $lineNumber
